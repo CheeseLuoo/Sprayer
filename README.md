@@ -32,7 +32,7 @@ to train the field model(PINN training process).
 
 3. Collect all results from the parallel device, then use `Bo.ipynb` for validation and to generate a new training folder. Repeat the training as needed(Optimization process).
 
-4. Extract the best physical hyperparameters from `Bo.ipynb` and save them to `Sprinkle_PDE/info2.json` for use in the scheduling segment.
+4. Extract the best physical hyperparameters from `Bo.ipynb` and save them to `Sprinkle_PDE/info2.json` for use in the scheduling part.
 
 ### Data Availability
 The full dataset used in the paper is not currently open due to permission constraints. However, example data is made available in `Sprinkle_Modeling/Guicheng_data` to facilitate process walkthrough.
