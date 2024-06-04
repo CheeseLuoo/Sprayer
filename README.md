@@ -35,7 +35,7 @@ to train the field model(PINN training process).
 4. Extract the best physical hyperparameters from `Bo.ipynb` and save them to `Sprinkle_PDE/info2.json` for use in the scheduling part.
 
 ### Data Availability
-The full dataset used in the paper is not currently open due to permission constraints. However, example data is made available in `Sprinkle_Modeling/Guicheng_data` to facilitate process walkthrough.
+The full dataset used in the paper is not currently open due to permission constraints. However, two days' example data is made available in `Sprinkle_Modeling/Guicheng_data` to facilitate process walkthrough.
 
 ## Section 2: Sparsity-Driven Decoupling Adaptive Sprinkler Scheduling
 
