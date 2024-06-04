@@ -23,12 +23,15 @@ The repository is structured into two primary sections as discussed in the paper
 ### Quick Start Guide
 ![Sprinkling Effect Modeling](figure/PINN-based spraying model4.png)
 1. Begin by opening and running `Bo.ipynb` to initiate a Bayesian Optimization loop for modeling the sprinkling effects. Detailed instructions are provided within the notebook.
+
 2. After creating the training folder, execute the command:
 ```bash
 python Sprinkle_Modeling/$device_num/train.py
 ```
-to train the field model(PINN-training process).
-3. Collect all results from the parallel device, then use `Bo.ipynb` for validation and to generate a new training folder. Repeat the training as needed(Optimization process).
+to train the field model.
+
+3. Collect all results from the parallel device, then use `Bo.ipynb` for validation and to generate a new training folder. Repeat the training as needed.
+
 4. Extract the best physical hyperparameters from `Bo.ipynb` and save them to `Sprinkle_PDE/info2.json` for use in the scheduling segment.
 
 ### Data Availability
