@@ -21,7 +21,7 @@ The repository is structured into two primary sections as discussed in the paper
 - Python version: 3.8.16
 
 ### Quick Start Guide
-![Sprinkling Effect Modeling](figure/PINN-based spraying model.png)
+![Sprinkling Effect Modeling](figure/PINN_based_spraying_model.png)
 1. Begin by opening and running `Bo.ipynb` to initiate a Bayesian Optimization loop for modeling the sprinkling effects. Detailed instructions are provided within the notebook.
 
 2. After creating the training folder, execute the command:
