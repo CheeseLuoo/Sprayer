@@ -28,9 +28,9 @@ The repository is structured into two primary sections as discussed in the paper
 ```bash
 python Sprinkle_Modeling/$device_num/train.py
 ```
-to train the field model.
+to train the field model(PINN training process).
 
-3. Collect all results from the parallel device, then use `Bo.ipynb` for validation and to generate a new training folder. Repeat the training as needed.
+3. Collect all results from the parallel device, then use `Bo.ipynb` for validation and to generate a new training folder. Repeat the training as needed(Optimization process).
 
 4. Extract the best physical hyperparameters from `Bo.ipynb` and save them to `Sprinkle_PDE/info2.json` for use in the scheduling segment.
 
