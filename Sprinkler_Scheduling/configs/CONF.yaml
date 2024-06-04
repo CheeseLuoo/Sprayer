@@ -1,0 +1,45 @@
+strategy_name: "SequentialSpray"
+root_dir: './outputs'
+verbose: False
+seed: 0
+
+diffusivity_K: 1.0
+grid_x: 20
+grid_y: 20
+
+randomsource: False
+sourcenum: 4
+R_change_interval: 50
+
+#time parameter
+time_co: 0.1 
+delta_t: 3
+
+#sensing parameter
+sensing_rate: 1.0
+noise_scale: 1.0
+
+# experiment parameter
+num_init_samples: 1
+max_num_samples: 18
+sche_step: 18
+adaptive_step: 18
+Env: 'Dynamic'
+effect_threshold: 0.0
+
+bound1: 200
+bound2: 20
+bound3: 100
+
+time_before_sche: 5
+
+amplitude: 1.0
+lengthscale: 0.5
+init_noise: 1.0
+lr_hyper: 0.01
+lr_nn: 0.001
+
+# vehicle team
+team_size: 4
+replenish_speed: 1
+water_volume: 4

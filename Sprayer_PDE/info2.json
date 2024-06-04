@@ -1,0 +1,8 @@
+{
+    "diffusion_k": 0.1639456,
+    "sprayer_model_variance_num": 1.8647823,
+    "sprayer_lambda": 0.00000695219,
+    "regularization_lambda": 0.002,
+	"lambda_sed": 0.003,
+	"n_s": 2.810627401
+}
